@@ -1,0 +1,54 @@
+[33mcommit 8ddda364bd60a06ddbfb14d7d8a216212ce7e5d0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: 20 Century Boy <110159240+20CenturyBoy@users.noreply.github.com>
+Date:   Sun May 7 14:00:57 2023 +0200
+
+    Create first web page
+    Modify index.html by adding link to first web page
+    Rename pages/media to recipes-rest/images
+    
+    The first web page representing first recipe is added initally only
+    including title of dish as heading.
+    Then in order to make it acessable as one of the website recipes
+    home page is modified to include link element enabeling acess to it
+    as part of website.
+    Finally pages/media is renimed to recipes-rest/images due to latter
+    being more descriptive of actual content present in directory
+    due to it for now only contaning images
+
+[33mcommit d5a69a6301027e59ef16773d9311680066223e01[m
+Author: 20 Century Boy <110159240+20CenturyBoy@users.noreply.github.com>
+Date:   Wed May 3 15:05:54 2023 +0200
+
+    Edit README.md
+    
+    The README.md file contained HTML which on GitHub resulted in HTML elements being included
+    as part of README.md file resulting in unwanted formating.To avoid this the ```html snippets were used
+    in order to avoid interpretation of text as HTML.Now HTML is interpreted as text as originally intended.
+
+[33mcommit 2c3667c77a148080116ab018a4e64a2d2bea7e9d[m
+Author: 20 Century Boy <110159240+20CenturyBoy@users.noreply.github.com>
+Date:   Tue May 2 18:28:53 2023 +0200
+
+    Adds index.html as well as recipes-html and pages
+    Due to each recipe being separate as unit from any other on web page
+    level it is then necessary to have a web page providing access to all
+    of web pages within website to user and have it served first to user
+    upon website visit which is implemented via index.html. And web pages
+    themselves are defined and organized in recipes-html directory containing
+    all html files and pages directory containing all related data to web pages
+    both directories containing components defining web pages
+
+[33mcommit 5491bba35724eb353ece54fffb0c8f90f6732cd5[m
+Author: 20CenturyBoy <110159240+20CenturyBoy@users.noreply.github.com>
+Date:   Fri Apr 28 17:34:22 2023 +0200
+
+    Defines README
+    
+    Modified the README.md to include the goals of the currently developed project
+    which were not specified in inital version of file.
+
+[33mcommit b2dddd4829527063c5335302a3828516d91a2810[m
+Author: 20CenturyBoy <110159240+20CenturyBoy@users.noreply.github.com>
+Date:   Thu Apr 27 00:10:59 2023 +0200
+
+    Initial commit
